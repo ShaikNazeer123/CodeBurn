@@ -1,0 +1,75 @@
+@import url('/stylesheets/bootstrap.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+body{
+	background: #000;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	overflow: auto;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+      
+div.jumbotron{
+	text-align: center;
+	background-color: transparent;
+}
+div .signup{
+	text-align: center;
+	padding: 50px;
+}
+div .login{
+	text-align: center;
+	padding: 50px;
+}
+div.jumbotron .label{
+	padding: 10px;
+}
+hr{
+	border: 0;
+	clear:both;
+	display:block;
+	width: 100%;               
+	background-color:#FFFFFF;
+	height: 1px;
+}
+@media screen and (max-width: 680px){
+	div .signup{
+		text-align: center;
+		padding: 10px;
+	}
+	div .login{
+		text-align: center;
+		padding: 10px;
+	}
+}
+
+.intro{
+	text-align: center;
+}
+
+.form-input{
+	padding: 0.5em;
+	color: #000;
+	width: 18em;
+}
+.input-span{
+	padding: 1em;
+	background-color: #9f9f9f;
+	color: #fff;
+}
+#signup-form{
+	z-index: 99;
+}
+form{
+	display: none;
+}
+#err_msg{
+	color: red;
+}

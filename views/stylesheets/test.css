@@ -1,0 +1,47 @@
+body{
+	margin-top: 0;
+	padding-top: 0;
+}
+.brand-nav{
+	padding-left: 1em;
+	padding-right: 1em;
+	background-color: #2962FF;
+}
+.brand-nav a{
+	opacity: 0.8;
+}
+.promo-bg{
+	
+	padding-bottom: 2em;
+	padding-top: 1em;
+}
+.promo{
+	padding-top: 1em;
+}
+.promo-card{
+	padding: 1rem;
+	margin-left: 2rem;
+	margin-right: 2rem;
+	background-color: #E0E0E0; 
+	color: #000;
+}
+.promo i{
+	font-size: 7rem;
+	color: #FF4081;
+}
+.promo-caption{
+	font-size: 1.7rem;
+}
+
+.about-section{
+	text-align: center;
+}
+.about-section h1{
+	color: #fff;
+}
+.dev-names{
+	font-size: 50px;
+}
+.page-footer{
+	background-color: #3F51BF !important;
+}

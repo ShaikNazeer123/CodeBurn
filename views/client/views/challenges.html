@@ -1,0 +1,27 @@
+<div ng-init="challenge.init()" ng-controller="challengeViewController as challenge">
+    <div class="container top-text">
+        <h5>Welcome {{main.username}}, Ready for some cool challenges?</h5>
+    </div>
+    <div class="container">
+        <div class="row" ng-repeat="question in challenge.questions">
+            <div class="col s12 m12">
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title"><strong>Faculty: </strong>{{question.name}}</span><br>
+                        <strong><span class="question-heading">Problem: </span></strong>
+                        <div ng-bind-html="question.question | unsafe"></div>
+                    </div>
+                    <div class="card-action">
+                        <!--<div class="chip">{{}}</div>-->
+                        <a href="#" class="btn waves-btn" ng-click="challenge.solve(this)">Solve</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+    .top-text {
+        text-align: center;
+    }
+</style>
